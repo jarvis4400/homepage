@@ -93,10 +93,12 @@
     justify-content: space-between;
   }
   
-  .contact-info__block--center {
+  .contact-info__block--center,
+  .contact-info__block--right,
+  .contact-info__block--left {
     justify-content: center;
   }
-  
+
   .contact-info__item {
     color: var(--secondary-text-color);
     text-decoration: none;
@@ -125,10 +127,11 @@
   }
   
   .contact-info__avatar {
-    border-radius: 50%;
+    border-radius: 60%;
     width: 100px;
     height: 100px;
     object-fit: cover;
+    object-position: 50% 10%;
     border: 3px solid;
     border-color: var(--text-decoration-color);
   }
