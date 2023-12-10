@@ -26,7 +26,7 @@
   .fh {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   
   .fv {
@@ -128,8 +128,8 @@
   
   .contact-info__avatar {
     border-radius: 60%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     object-position: 50% 10%;
     border: 3px solid;
@@ -272,7 +272,13 @@
   .additional-info__languages-header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .additional-info__languages-category {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-top: 5px;
   }
   
   .additional-info__languages-item {
